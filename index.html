@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upcoming Anime</title>
+
+</head>
+<style>
+  li.arrow::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    height: 5px;
+    width: 5px;
+    border: 1px solid #f9dd94;
+    border-width: 2px 2px 0 0;
+    transform: rotate(45deg);
+  }
+
+  #design {}
+</style>
+
+<body>
+  <div>
+    <h2>Upcoming Anime</h2>
+    <div id="design">
+      <h4 id="loading" style="margin-top: 10px;">Loading...</h4>
+
+    </div>
+    <!-- <ul>
+      <li id="anime"></li>
+    </ul> -->
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>
