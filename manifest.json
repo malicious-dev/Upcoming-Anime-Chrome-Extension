@@ -1,12 +1,11 @@
 {
-  "name": "Movie Finder",
+  "name": "Upcoming Anime",
   "version": "1.0.0",
   "description": "You can find Detail of any movie",
   "manifest_version": 3,
   "author": "malicious-dev",
   "action": {
     "default_popup": "index.html",
-    "default_title": "Movie Finder"
-  },
-  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+    "default_title": "Upcoming anime"
+  }
 }
